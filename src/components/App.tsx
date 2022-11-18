@@ -4,6 +4,7 @@ import {useBaseProvider} from "../providers/Base.provider";
 import { DummyComponentNoRerender} from "./dummy/Dummy.component";
 import {DummyRerenderComponent} from "./dummy/DummyRerender.component";
 import {DummyNavComponent} from "./dummy/DummyNav.component";
+import {HardCaseComponent} from "./dummy/HardCase.component";
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
               <DummyRerenderComponent/>
               <p> For Nav Provider </p>
               <DummyNavComponent/>
+              <HardCaseComponent/>
           </header>
         </div>
       );
